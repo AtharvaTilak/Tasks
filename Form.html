@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IMAGICA</title>
+    <style>
+        .head1 {
+            font-size: 40px;
+            color: #009900;
+            font-weight: bold;
+        }
+
+        .head2 {
+            font-size: 17px;
+            margin-bottom: 15px;
+        }
+
+        body {
+            background-position: center;
+            background-size: contain;
+        }
+
+        .menu {
+            position: sticky;
+            top: 0;
+            background-color: #009900;
+            padding: 10px 0px 10px 0px;
+            color: white;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .menu a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .menu-log {
+            right: auto;
+            float: right;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .body_sec {
+            margin-left: 20px;
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: inline-block;
+            width: 150px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 20px
+        }
+
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body style="background-color:lightblue">
+    <header>
+        <div class="head1">Imagica</div>
+        <div class="head2">Its fun here</div>
+    </header>
+    <!--Navigation Bar-->
+    <div class="menu">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#map">Map</a>
+        <a href="#about">About</a>
+        <div class="menu-log">
+            <a href="login">Login</a>
+        </div>
+    </div>
+    <p>
+    <h1>Survey</h1>
+    <h3>This is to determine the total number of students who have been to Imagicaa</h3>
+    </p>
+    <p>
+    <h4>Enter the following details:</h4>
+    </p>
+    <form>
+        <p><label>Full Name: <input type="text" /></label><br><br></p>
+        <p><label>EMail ID: <input type="email" /></label><br><br></p>
+        <p><label>Mobile Number: <input type="tel" /></label><br><br></p>
+        <p><label>Address: <textarea name="Addresses" rows="3" cols="40"></textarea></label><br><br></p>
+        <p><label>Gender: Male <input type="radio" name="Gender" value="Male" /></label>
+            <label>Female <input type="radio" name="Gender" value="Female" /></label><br><br>
+        </p>
+        <p<label>Have you visited any of these?</label><br>
+            <input type="checkbox" id="level1" name="level1" value="Wonderla">
+            <label for="level1">Wonderla</label><br>
+            <input type="checkbox" id="level2" name="level2" value="Crescent">
+            <label for="level2">Crescent Water Park</label><br>
+            <input type="checkbox" id="level3" name="level3" value="Wet & Joy">
+            <label for="level3">Wet and Joy</label><br><br></p>
+            <p><label>Have you been to Imagicaa?</label><br>
+                <input type="radio" id="Yes" name="Yes" value="Yes">
+                <label for="Yes">Yes</label><br>
+                <input type="radio" id="No" name="No" value="No">
+                <label for="No">No</label><br><br>
+            </p>
+            <p><input type="submit"> <input type="reset"></p>
+    </form>
+    <p>Last 5 students to submit this form are mentioned here-</p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Imagica Status</th>
+            <th>Other Status</th>
+        </tr>
+        <tr>
+            <td>Atharva</td>
+            <td>Yes</td>
+            <td>Wonderland & Crescent</td>
+        </tr>
+        <tr>
+            <td>Koustub</td>
+            <td>No</td>
+            <td>Wet and Joy</td>
+        </tr>
+        <tr>
+            <td>Shantanu</td>
+            <td>Yes</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>Utkarsh</td>
+            <td>No</td>
+            <td>Crescent</td>
+        </tr>
+        <tr>
+            <td>Athar</td>
+            <td>Yes</td>
+            <td>Wonderland</td>
+        </tr>
+    </table><br><br>
+    <footer>
+Footer Section
+    </footer>
+
+</body>
+
+</html>
+
+</html>
