@@ -1,5 +1,0 @@
-﻿  Source.cpp
-E:\Documents\42 LABS\Assignments\Assignment-16(STL_Containers)-Pushkaraj\STL_Containers\Source.cpp(149,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-E:\Documents\42 LABS\Assignments\Assignment-16(STL_Containers)-Pushkaraj\STL_Containers\Source.cpp(164,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-E:\Documents\42 LABS\Assignments\Assignment-16(STL_Containers)-Pushkaraj\STL_Containers\Source.cpp(280,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  STL_Containers.vcxproj -> E:\Documents\42 LABS\Assignments\Assignment-16(STL_Containers)-Pushkaraj\STL_Containers\x64\Debug\STL_Containers.exe
