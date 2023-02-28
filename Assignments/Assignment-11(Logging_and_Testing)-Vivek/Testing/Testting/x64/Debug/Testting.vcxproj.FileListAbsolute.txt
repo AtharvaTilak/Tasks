@@ -1,4 +1,0 @@
-C:\Users\tilak\OneDrive\Desktop\Testing\Testting\x64\Debug\Testting.vcxproj.CopyComplete
-C:\Users\tilak\OneDrive\Desktop\Testing\Testting\x64\Debug\Testting.exe
-C:\Users\tilak\OneDrive\Desktop\Testing\Testting\x64\Debug\gtest.pdb
-C:\Users\tilak\OneDrive\Desktop\Testing\Testting\x64\Debug\gtest_main.pdb
