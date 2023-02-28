@@ -15,6 +15,6 @@ E:\Documents\42 LABS\Tasks\Task-1_Diffie_Hellman_Implementation\DiffieHellman\bi
           ]
 E:\Documents\42 LABS\Tasks\Task-1_Diffie_Hellman_Implementation\DiffieHellman\bigint.h(1014,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 E:\Documents\42 LABS\Tasks\Task-1_Diffie_Hellman_Implementation\DiffieHellman\bigint.h(1014,59): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-E:\Documents\42 LABS\Tasks\Task-1_Diffie_Hellman_Implementation\DiffieHellman\Source.cpp(118,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-E:\Documents\42 LABS\Tasks\Task-1_Diffie_Hellman_Implementation\DiffieHellman\Source.cpp(124,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Documents\42 LABS\Tasks\Task-1_Diffie_Hellman_Implementation\DiffieHellman\Source.cpp(181,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Documents\42 LABS\Tasks\Task-1_Diffie_Hellman_Implementation\DiffieHellman\Source.cpp(186,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   DiffieHellman.vcxproj -> E:\Documents\42 LABS\Tasks\Task-1_Diffie_Hellman_Implementation\DiffieHellman\x64\Debug\DiffieHellman.exe
