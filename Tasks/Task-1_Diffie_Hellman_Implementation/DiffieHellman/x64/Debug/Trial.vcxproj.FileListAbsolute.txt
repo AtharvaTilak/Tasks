@@ -1,0 +1,2 @@
+C:\Users\admin\OneDrive\Desktop\Trial\x64\Debug\Trial.exe
+E:\Documents\42 LABS\Tasks\Task-1_Diffie_Hellman_Implementation\DiffieHellman\x64\Debug\Trial.exe
