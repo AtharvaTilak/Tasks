@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <cstdlib>
 #include <unordered_set>
-#include <windows.h>
 #include <string>
 #include "bigint.h"
 
@@ -198,7 +196,7 @@ public:
 		cout << "Prime number p is " << proc.getprime() << endl;
 		proc.setpr(proc.primitiveRoot(proc.getprime()));
 		cout << "Primitive root q of p is " << proc.getpr() << endl;
-		cout << "Private keys a and b are " << proc.geta() << " & " << proc.geta() << endl;
+		cout << "Private keys a and b are " << proc.geta() << " & " << proc.getb() << endl;
 		bigint pa = proc.getpka();
 		bigint pb = proc.getpkb();
 		proc.publicKeys(proc.getprime(), proc.getpr(), proc.geta(), proc.getb(), &pa, &pb);

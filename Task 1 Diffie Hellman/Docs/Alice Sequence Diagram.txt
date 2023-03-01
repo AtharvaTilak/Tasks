@@ -1,0 +1,38 @@
+@startuml
+title Diffie Hellman Sequence DIagram
+actor Alice as Alice #Pink
+participant System as S
+Alice -> S : Request to communicate
+activate S
+S -> S : Generate value of p & q
+activate S #Green
+S --> S : Returning value of  p & q
+deactivate S
+S -> Alice : Client verify p & q
+activate Alice #Green
+Alice --> S : p  & q are verified
+deactivate Alice
+S -> S : Generate a & b
+activate S #Green
+S --> S : Returned values of a & b 
+deactivate S
+|||
+S -> S : Calculate pa & pb
+activate S #Green
+S --> S : Return values of pa & pb
+deactivate S
+|||
+S --> Alice : Sharing pb with Alice
+S -> S : Calculating xa using pb
+activate S #Green
+S --> S : Returning xa
+deactivate S
+|||
+S --> Alice : Value of xa
+S -> S : Compare values of xa and xb
+activate S #Green
+S --> S : Values of xa and xb are equal
+deactivate S
+S --> Alice : Secure communication is established
+deactivate S
+@enduml

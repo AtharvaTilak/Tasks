@@ -1,0 +1,44 @@
+@startuml
+class User { 
+-String name
++interact()
+}
+package Name <<Database>> {
+object Alice {
+Bob
+}
+}
+User -- Name
+
+note left of User::interact
+Start Interaction
+end note
+User <|-- Procedure
+class Procedure {
+-int p
+-int q
+-int a, b
++int pa, pb
+-int xa, xb
++primitiveRoot(p)
++publicKeys()
+-secretKeys()
++checkPrime(p)
+-checkEqual(xa, xb)
+}
+note right of Procedure::primitiveRoot
+Calculate primitive root q of p
+end note
+note left of Procedure::publicKeys
+Calculate public keys from private keys
+end note
+note right of Procedure::secretKeys
+Calculate Secret Key with public and private keys
+end note
+note left of Procedure::checkPrime
+Used to verify if p is a prime number
+end note
+note right of Procedure::checkEqual
+Used to verify if secret keys are equal
+end note
+@enduml

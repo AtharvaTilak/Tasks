@@ -1,0 +1,38 @@
+@startuml
+title Diffie Hellman Sequence DIagram
+actor Bob as Bob #Blue
+participant System as S
+Bob -> S : Request to communicate
+activate S
+S -> S : Generate value of p & q
+activate S #Green
+S --> S : Returning value of  p & q
+deactivate S
+S -> Bob : Client verify p & q
+activate Bob #Green
+Bob --> S : p  & q are verified
+deactivate Bob
+S -> S : Generate a & b
+activate S #Green
+S --> S : Returned values of a & b 
+deactivate S
+|||
+S -> S : Calculate pa & pb
+activate S #Green
+S --> S : Return values of pa & pb
+deactivate S
+|||
+S --> Bob : Sharing pa with Bob
+S -> S : Calculating xb using pa
+activate S #Green
+S --> S : Returning xb
+deactivate S
+|||
+S --> Bob : Value of xb
+S -> S : Compare values of xa and xb
+activate S #Green
+S --> S : Values of xa and xb are equal
+deactivate S
+S --> Bob : Secure communication is established
+deactivate S
+@enduml
