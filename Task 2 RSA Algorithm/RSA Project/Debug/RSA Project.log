@@ -1,0 +1,5 @@
+﻿  Source.cpp
+E:\Documents\42 LABS\Tasks\Task 2 RSA Algorithm\RSA Project\Source.cpp(6,2): error C2065: 'BigInt': undeclared identifier
+E:\Documents\42 LABS\Tasks\Task 2 RSA Algorithm\RSA Project\Source.cpp(6,9): error C2146: syntax error: missing ';' before identifier 'a'
+E:\Documents\42 LABS\Tasks\Task 2 RSA Algorithm\RSA Project\Source.cpp(6,9): error C2065: 'a': undeclared identifier
+E:\Documents\42 LABS\Tasks\Task 2 RSA Algorithm\RSA Project\Source.cpp(7,10): error C2065: 'a': undeclared identifier
